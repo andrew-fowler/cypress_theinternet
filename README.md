@@ -25,7 +25,10 @@ This is normally caused by using a Node version <6.  Update and the install shou
 ### Links
 Cypress guides: https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html
 
-API guide: https://docs.cypress.io/api/introduction/api.html#
+Cypress examples: https://github.com/cypress-io/cypress-example-recipes
+
+Cypress API guide: https://docs.cypress.io/api/introduction/api.html#
+
 
 ### TODO
 - Add more test examples

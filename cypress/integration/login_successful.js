@@ -1,3 +1,5 @@
+let indexPage = require('../model/index.page');
+let loginPage = require('../model/login.page');
 
 describe('Logging in with correct details succeeds', function() {
   it('Given the user loads the landing page', function() {
@@ -5,17 +7,16 @@ describe('Logging in with correct details succeeds', function() {
   })
  
   it('And goes to Form Authentication', function() {
-      cy.get('a[href="/login"]').click()
+      indexPage.loginLink().click();
   })
 
   it('When they attempt to login with correct details', function(){
-      cy.get('#username').type('tomsmith')
-      cy.get('#password').type('SuperSecretPassword!')
-      cy.get('button[type="submit"]').click()
+      loginPage.usernameInput().type('tomsmith');
+      loginPage.passwordInput().type('SuperSecretPassword!');
+      loginPage.submitButton().click();
   })
 
   it('Then the user is logged in', function(){
-      cy.get('div[class="flash success"]').should('be.visible')
+        loginPage.successFlash().should('be.visible');
   })
-
 })

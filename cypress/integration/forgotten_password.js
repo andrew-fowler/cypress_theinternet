@@ -1,22 +1,24 @@
+let indexPage = require('../model/index.page');
+let forgottenPasswordPage = require('../model/forgottenPassword.page.js');
 
 describe('User can request a new password', function() {
   it('Given the user loads the landing page', function() {
-    cy.visit('/')
+    cy.visit('/');
   })
  
   it('And goes to the Forgotten Password page', function() {
-      cy.get('a[href="/forgot_password"]').click()
+      indexPage.forgottenPasswordLink().click();
   })
 
   it('And they specify an email address', function() {
-      cy.get('#email').type("foo@bar.com")
+      forgottenPasswordPage.emailInput().type("foo@bar.com");
   })
 
   it('When they submit the request', function(){
-      cy.get('#form_submit').click()
+      forgottenPasswordPage.submitButton().click();
   })
 
   it('Then the success message is displayed', function(){
-      cy.contains("Your e-mail's been sent!").should('be.visible')
+      forgottenPasswordPage.successMessage().should('be.visible');
   })
 })
