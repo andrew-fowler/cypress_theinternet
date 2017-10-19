@@ -1,28 +1,28 @@
-### Summary
+## Summary
 
 This is an example usage of [Cypress] against [the-internet sandbox].
 
 Note: Developed on/for Mac.  It _should_ work on other platforms, but caveat emptor.
 
-### Requirements
+## Requirements
 - Chrome browser 
 - NodeJS 6+
 
-### Getting started
+## Getting started
 - From the project root, run `npm install`
 
-### Execution
+## Execution
 - To open the desktop app, from the project root, run `$(npm bin)/cypress open`
 - Click an individual test, or 'Run All Tests'
 
-## CLI options
+### CLI options
 
-### Troubleshooting
+## Troubleshooting
 > Cypress install halts shortly before completion
 
 This is normally caused by using a Node version <6.  Update and the install should work fine.
 
-### Links
+## Links
 Cypress guides: https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html
 
 Cypress examples: https://github.com/cypress-io/cypress-example-recipes
@@ -30,7 +30,7 @@ Cypress examples: https://github.com/cypress-io/cypress-example-recipes
 Cypress API guide: https://docs.cypress.io/api/introduction/api.html#
 
 
-### TODO
+## TODO
 - Add more test examples
 
 
