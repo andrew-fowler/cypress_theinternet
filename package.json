@@ -1,0 +1,21 @@
+{
+  "name": "cypress-theinternet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:headless": "./node_modules/.bin/cypress run",
+    "test:electron": "./node_modules/.bin/cypress run --headed",
+    "test:chrome": "./node_modules/.bin/cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cypress": "^1.0.1"
+  },
+  "dependencies": {
+    "accessibilityjs": "^1.0.1"
+  }
+}
