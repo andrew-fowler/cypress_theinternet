@@ -1,6 +1,6 @@
 # Artefacts
 # /cypress/integration/cypress
-# /cypress/videos
+/cypress/videos
 
 # Logs
 logs
