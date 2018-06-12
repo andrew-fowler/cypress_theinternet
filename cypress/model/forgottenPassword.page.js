@@ -4,4 +4,4 @@ var forgottenPasswordPage = {
     successMessage: function(){return cy.contains(`Your e-mail's been sent!`)}
 }
 
-module.exports = forgottenPasswordPage
+module.exports = forgottenPasswordPage;

@@ -3,7 +3,7 @@ let loginPage = require('../model/login.page');
 
 describe('Logging in with correct details succeeds', function() {
   it('Given the user loads the landing page', function() {
-    cy.visit('/')
+    cy.visit('/');
   })
  
   it('And goes to Form Authentication', function() {

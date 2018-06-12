@@ -5,4 +5,4 @@ var loginPage = {
     successFlash: function(){return cy.get('div[class="flash success"]')}
 }
 
-module.exports = loginPage
+module.exports = loginPage;

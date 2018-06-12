@@ -4,4 +4,4 @@ var indexPage = {
     windowsLink: function(){return cy.get('a[href="/windows"]')},
 }
 
-module.exports = indexPage
+module.exports = indexPage;
