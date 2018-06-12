@@ -26,11 +26,11 @@ Note: Developed on/for Mac.  It _should_ work on other platforms, but caveat emp
 This is normally caused by using a Node version <6.  Update and the install should work fine.
 
 ## Links
-Cypress guides: https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html
+[Cypress Guides]
 
-Cypress examples: https://github.com/cypress-io/cypress-example-recipes
+[Cypress Examples]
 
-Cypress API guide: https://docs.cypress.io/api/introduction/api.html#
+[Cypress API]
 
 
 ## TODO
@@ -39,3 +39,6 @@ Cypress API guide: https://docs.cypress.io/api/introduction/api.html#
 
 [Cypress]: https://www.cypress.io/
 [the-internet sandbox]: https://the-internet.herokuapp.com/
+[Cypress Guides]: https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html
+[Cypress Examples]: https://github.com/cypress-io/cypress-example-recipes
+[Cypress API]: https://docs.cypress.io/api/introduction/api.html#
