@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
-    "cypress": "^1.0.1"
+    "cypress": "^3.0.1"
   },
   "dependencies": {
     "accessibilityjs": "^1.0.1"
