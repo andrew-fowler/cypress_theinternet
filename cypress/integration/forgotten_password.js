@@ -1,5 +1,5 @@
-let indexPage = require('../model/index.page');
-let forgottenPasswordPage = require('../model/forgottenPassword.page.js');
+import indexPage from "../model/index.page";
+import forgottenPasswordPage from "../model/forgottenPassword.page";
 
 describe('User can request a new password', function() {
   it('Given the user loads the landing page', function() {

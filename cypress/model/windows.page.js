@@ -1,7 +1,5 @@
-let windowsPage = {
-    newWindowLink: function () {
-        return cy.get('a[href="/windows/new"]');
-    },
+const windowsPage = {
+    newWindowLink: ()=> cy.get('a[href="/windows/new"]')
 };
 
-module.exports = windowsPage;
+export default windowsPage;

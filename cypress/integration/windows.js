@@ -1,5 +1,5 @@
-let indexPage = require('../model/index.page');
-let windowsPage = require('../model/windows.page');
+import indexPage from "../model/index.page";
+import windowsPage from "../model/windows.page";
 
 describe('User can launch a new window', function() {
     it('Given the user loads the landing page', function() {

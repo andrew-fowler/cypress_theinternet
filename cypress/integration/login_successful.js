@@ -1,5 +1,5 @@
-let indexPage = require('../model/index.page');
-let loginPage = require('../model/login.page');
+import loginPage from "../model/login.page";
+import indexPage from "../model/index.page";
 
 describe('Logging in with correct details succeeds', function() {
   it('Given the user loads the landing page', function() {

@@ -1,13 +1,7 @@
-let forgottenPasswordPage = {
-    emailInput: function () {
-        return cy.get('#email');
-    },
-    submitButton: function () {
-        return cy.get('#form_submit');
-    },
-    successMessage: function () {
-        return cy.contains(`Your e-mail's been sent!`);
-    }
+const forgottenPasswordPage = {
+    emailInput: ()=> cy.get('#email'),
+    submitButton: ()=> cy.get('#form_submit'),
+    successMessage: ()=> cy.contains(`Your e-mail's been sent!`)
 };
 
-module.exports = forgottenPasswordPage;
+export default forgottenPasswordPage;
