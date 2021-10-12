@@ -17,7 +17,7 @@ describe('Logging in with incorrect details fails', function() {
     });
 
     it('Then the user is not logged in', function(){
-        loginPage.successFlash().should('not.be.visible');
+        loginPage.failureFlash().should('be.visible');
         loginPage.usernameInput().should('be.visible');
         loginPage.passwordInput().should('be.visible');
     });
